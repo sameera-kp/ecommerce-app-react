@@ -1,0 +1,22 @@
+/* src/styles/ProductCard.css */
+
+.card {
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  padding: 1rem;
+  height: 260px;
+  object-fit: contain;
+}
+
+.card-title {
+  font-size: 0.95rem;
+  height: 45px;
+  overflow: hidden;
+}

@@ -1,0 +1,132 @@
+/* src/styles/Header.css */
+
+/* -------------------------------------- */
+/* 1. Amazon Color Definitions */
+/* -------------------------------------- */
+
+/* Amazon Dark Navy Background */
+.bg-amazon-primary {
+    background-color: #131921 !important;
+    color: #fff;
+    /* Add vertical padding to give the bar height */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: none !important; /* Remove shadow for a flatter Amazon look */
+}
+
+/* Amazon Yellow/Orange Search Button */
+.btn-amazon-search {
+    background-color: #febd69;
+    border: 1px solid #cd9042;
+    color: #111; /* Dark text on button */
+    padding: 0.5rem 0.75rem;
+}
+
+.btn-amazon-search:hover {
+    background-color: #f3a847;
+}
+
+/* Amazon Red for Badge */
+.bg-amazon-red {
+    background-color: #cc0c39 !important;
+}
+
+/* -------------------------------------- */
+/* 2. Navigation Link and Brand Styles */
+/* -------------------------------------- */
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff !important;
+    margin-right: 2rem !important; /* Space after logo */
+}
+
+/* Base link styles */
+.nav-link {
+    color: #fff !important;
+    font-weight: 700; /* Bold links */
+    padding: 0.5rem 0.75rem !important;
+    border: 1px solid transparent; /* Prepare for hover border */
+    border-radius: 3px;
+}
+
+.nav-link:hover {
+    border: 1px solid #fff; /* White border on hover, Amazon style */
+    text-decoration: none; /* Remove default underline on hover */
+}
+
+/* Active Link - Minimalist border for current page */
+.active-menu {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+/* -------------------------------------- */
+/* 3. Search Bar Styling (Key for seamless look) */
+/* -------------------------------------- */
+
+.search-container {
+    flex-grow: 1; /* Allows search bar to take center space */
+    max-width: 600px; 
+}
+
+.search-input {
+    /* Combine input and button seamlessly */
+    border-radius: 4px 0 0 4px !important;
+    border: none;
+    height: 38px;
+}
+
+/* Focus ring is often yellow/orange */
+.search-input:focus {
+    box-shadow: 0 0 0 3px #f90; 
+}
+
+.btn-amazon-search {
+    /* Combine input and button seamlessly */
+    border-radius: 0 4px 4px 0 !important;
+    height: 38px;
+    /* Ensure icon is centered */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* -------------------------------------- */
+/* 4. Cart Button Styling (Icon and Text) */
+/* -------------------------------------- */
+
+.btn-cart-link {
+    background: transparent !important;
+    border: 1px solid transparent;
+    color: #fff !important;
+    padding: 0.5rem 0.75rem;
+    font-weight: 700;
+    line-height: 1;
+    display: flex;
+    flex-direction: column; /* Stack the icon and text */
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-cart-link:hover {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+.cart-badge {
+    /* Position the badge above the cart icon */
+    top: -5px !important; 
+    left: 80% !important; 
+    font-size: 0.8rem !important;
+}
+
+.cart-text {
+    /* Style the "Cart" text below the icon */
+    font-size: 0.75rem;
+    line-height: 0.7;
+    margin-top: 5px;
+}

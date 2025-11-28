@@ -1,0 +1,13 @@
+/* src/styles/CarouselBanner.css */
+
+
+
+.carousel-item img {
+
+  height: 380px;
+
+  object-fit: cover;
+
+  border-radius: 5px;
+
+}

@@ -1,0 +1,31 @@
+/* src/styles/Header.css */
+
+.navbar {
+  box-shadow:0 2px 5px rgba(0,0,0,0.1); 
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn .badge {
+  font-size: 0.75rem;
+  padding: 0.25em 0.5em;
+}
+.active-menu {
+  color:red !important;     /* Your active color */
+  font-weight: 600;
+  border-bottom: 2px solid #fff;
+}
+
